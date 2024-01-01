@@ -1,1 +1,31 @@
-# R-
+# R-環境構築
+
+
+# rJava
+Javaをインストールする必要あり．
+Terminalで，　
+```
+java -version
+```
+と入力．　何も返ってこなければ　インストールの必要あり．
+インストールは，下記から．
+2024年1月1日：　https://www.oracle.com/java/technologies/downloads/#jdk21-mac
+dmgのダウンロードの方が楽
+インストールガイド
+https://docs.oracle.com/en/java/javase/21/install/installation-jdk-macos.html#GUID-F575EB4A-70D3-4AB4-A20E-DBE95171AB5F
+
+インストール後，　versionが表示されればOK．
+```
+$ java --version
+java version "21.0.1" 2023-10-17 LTS
+Java(TM) SE Runtime Environment (build 21.0.1+12-LTS-29)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.1+12-LTS-29, mixed mode, sharing)
+```
+ここからRに戻って，　ロードできればOK
+```r
+library(rJava)
+```
+--------
+
+
+#
