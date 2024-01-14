@@ -156,5 +156,5 @@ BiocManager::install("biomaRt", force = TRUE)
 ------
 
 
-# statistics
+# Statistics
 
