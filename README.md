@@ -1,12 +1,12 @@
 # R-環境構築
 
-
+-------------------------------------
 # rJava
 Javaをインストールする必要あり． Terminalで，実行
 ```sh
 java -version
 ```
-と入力．　何も返ってこなければ　インストールの必要あり．
+と入力．何も返ってこなければ　インストールの必要あり．
 
 インストールは，下記から．
 
@@ -27,7 +27,6 @@ Java HotSpot(TM) 64-Bit Server VM (build 21.0.1+12-LTS-29, mixed mode, sharing)
 ```r
 library(rJava)
 ```
---------
 
-
-#
+参考：https://qiita.com/masato-terai/items/6dee7d54413fff177bf4
+-------------------------------------
