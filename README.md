@@ -2,17 +2,19 @@
 
 
 # rJava
-Javaをインストールする必要あり．
-Terminalで，　
-```
+Javaをインストールする必要あり． Terminalで，実行
+```sh
 java -version
 ```
 と入力．　何も返ってこなければ　インストールの必要あり．
+
 インストールは，下記から．
+
 2024年1月1日：　https://www.oracle.com/java/technologies/downloads/#jdk21-mac
+
 dmgのダウンロードの方が楽
-インストールガイド
-https://docs.oracle.com/en/java/javase/21/install/installation-jdk-macos.html#GUID-F575EB4A-70D3-4AB4-A20E-DBE95171AB5F
+
+インストールガイド: https://docs.oracle.com/en/java/javase/21/install/installation-jdk-macos.html#GUID-F575EB4A-70D3-4AB4-A20E-DBE95171AB5F
 
 インストール後，　versionが表示されればOK．
 ```
